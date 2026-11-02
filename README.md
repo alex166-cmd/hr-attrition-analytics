@@ -26,7 +26,6 @@ method and does not describe any real company.
 | 2 | scripts/02_build_database.py + sql/*.sql | SQL (SQLite) | db/hr_analytics.db, 12 query result files |
 | 3 | scripts/03_risk_model.py | Python (scikit-learn) | risk scores table, odds ratios, watchlist |
 | 4 | scripts/04_report_charts.py | Python (matplotlib) | charts for the management report |
-| 5 | scripts/05_build_excel.py | Excel | outputs/HR_Attrition_Dashboard.xlsx |
 
 ## Run it
 ```
@@ -35,7 +34,6 @@ python scripts/01_clean_validate.py
 python scripts/02_build_database.py
 python scripts/03_risk_model.py
 python scripts/04_report_charts.py
-python scripts/05_build_excel.py
 ```
 Download the raw file first (see data/raw/README.txt).
 
